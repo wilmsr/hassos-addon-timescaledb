@@ -108,7 +108,8 @@ RUN apk add --no-cache \
     postgresql15 \
     postgresql15-dev \
     postgresql15-contrib-jit \
-    postgresql15-contrib
+    postgresql15-contrib \
+    postgresql15-client
 
 
 # Set default postgresql version
